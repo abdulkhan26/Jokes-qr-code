@@ -17,4 +17,3 @@ qr.make(fit=True)
 img = qr.make_image(fill_color="black", back_color="white")
 
 img.show()
-print(f"QR code saved to {img_path}")
